@@ -1,27 +1,166 @@
-body {
-	background: #CCCCCC
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-#banner {
-	width: 100%;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+    
 }
 
-h1 {
-	text-align: center
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
-p {
-	text-align: center;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
 }
 
-#missao {
-	font-size: 20px
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
 }
 
-em strong {
-	color: #FF0000;
+nav a:hover{
+    color: bisque;
+    text-decoration: underline;
 }
 
-.itens {
-	font-style: italic ;
+.produtos {
+    width: 940px;
+    margin: 0 auto; 
+    padding: 50px 0;
+
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /* background: #CCCCCC; */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+
+.produtos li:hover {
+    border-color: bisque;
+
+}
+
+.produtos li:active {
+    border-color:aquamarine ;
+    
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 10px 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.obrigatorio{
+    font-size: 6;
+    color: rgb(105, 15, 15);
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 40px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+    
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    
 }
