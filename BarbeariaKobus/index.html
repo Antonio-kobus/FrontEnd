@@ -2,40 +2,81 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Barbearia Kobus</title>
-		<link rel="stylesheet" href="style-home.css">
+		<meta name="viewport" content="width=device-width">
+		<title>Home - Kobustache</title>
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+
 	</head>
 
-	<body>
-		<header>
-			<h1 class="tituloPrincipal">Barbearia Kobus</h1>
-		</header>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1> <img src="logo2.png" alt="Logo da Barbearia Kobustache"> </h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">     Home     </a> </li>
+                        <li><a href="produtos.html">  Produtos </a> </li>
+                        <li><a href="contato.html">   Contatos </a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-		<img id="banner" src="banner.jpg">
+		<img class="banner" src="banner.jpg">
 
-		<div class="principal">
-			<h2 class="tituloCentralizado">Sobre a Barbearia Kobus</h2>
-			
-			<p>Localizada no coração da cidade a <strong>Barbearia Kobus</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Kobus já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        <main>
+			<section class="principal">
+				<h2 class="tituloPrincipal">Sobre a Kobustache</h2>
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+				<img class="utensilios" src="utensilios.jpg" alt="Utensilios de um Barbeiro">
 
-			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-			
-		</div>
+				<p>Localizada em uma parte pacata da cidade a <strong>Kobustache</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Kobustache já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-		<div class="beneficios">
-			<h3 class="tituloCentralizado">Benefícios</h3>
-			
-			<ul>
-				<li class="itens">Atendimento aos clientes</li>
-				<li class="itens">Espaço diferenciado</li>
-				<li class="itens">Localização</li>
-				<li class="itens">Profissionais Qualificados</li>
-			</ul>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-			<img src="beneficios.jpg" class="imagemBeneficios">
-		</div>	
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+
+			</section>
+
+			<section class="mapa">
+				<h3 class="tituloPrincipal"> Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado em uma parte pacata da cidade</p>
+				
+				<div class="mapaConteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.910051835132!2d-51.18997338444994!3d-29.953265781915487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197a7c83a79583%3A0x89a03ab118ca0eea!2sR.%20Machadinho%2C%201065%20-%20Rio%20Branco%2C%20Canoas%20-%20RS%2C%2092200-440!5e0!3m2!1spt-BR!2sbr!4v1659647669485!5m2!1spt-BR!2sbr" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</section>
+
+			<section class="beneficios">
+
+				<h3 class="tituloPrincipal">Benefícios</h3>
+
+				<div class="conteudoBeneficios">
+					<ul class="listaBeneficios">
+						<li class="itens">Atendimento aos clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="beneficios.jpg" class="imagemBeneficios">
+				</div>
+
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/8pWtdanVz3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+			</section>	
+		</main>
+
+		<footer>
+            <img src="logo-branco2.png" alt="Logo da Barbearia Kobustache">
+            <p class="copyright"> &copy; Copyright Kobustache - 2022</p>
+        </footer>
 	</body>
 	
 </html>
